@@ -1,0 +1,11 @@
+[package]
+name = "proof-parser-playground"
+edition = "2021"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+starknet-crypto = "0.7.0"
+serde_json = "1"
+swiftness_proof_parser = { git = "https://github.com/iosis-tech/swiftness", rev = "a53d65ecbd7acf4611b0d587d815f4e9d4d493ed"}
